@@ -1,4 +1,5 @@
 public class App {
+    
     public static void main(String[] args) throws Exception {
      drawFirst();
      drawSecond();  
@@ -12,6 +13,17 @@ public class App {
      drawFourth();
      drawThird();
     }
+        public static void drawSecond() {
+            double so = 4, vo = 3, t = 20, a = 10;
+            double s = so + vo + (0.5)*(a)*(t * t);
+            System.out.println(s);
+
+
+ 
+        }
+
+
+
         public static void drawFirst() {
             System.out.print( 1 * 1 );
             System.out.print(" ");
@@ -36,14 +48,6 @@ public class App {
             System.out.println( );
         }
 
-        public static void drawSecond() {
-            for (int i = 1; i <= 4; i++) {
-                for (int j = 1; j <=5; j++) {
-                    System.out.print("*");
-                }
-                System.out.println();
-        }  
-    }
         public static void drawThird() {
             System.out.println("+===+===+");
         }
