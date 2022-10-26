@@ -25,28 +25,11 @@ public class App {
 
 
         public static void drawFirst() {
-            System.out.print( 1 * 1 );
-            System.out.print(" ");
-            System.out.print( 2 * 2 );
-            System.out.print(" ");
-            System.out.print( 3 * 3 );
-            System.out.print(" ");
-            System.out.print( 4 * 4 );
-            System.out.print(" ");
-            System.out.print( 5 * 5 );
-            System.out.print(" ");
-            System.out.print( 6 * 6 );
-            System.out.print(" ");
-            System.out.print( 7 * 7 );
-            System.out.print(" ");
-            System.out.print( 8 * 8 );
-            System.out.print(" ");
-            System.out.print( 9 * 9 );
-            System.out.print(" ");
-            System.out.print( 10 * 10 );
-            System.out.print(" ");
-            System.out.println( );
+            for ( int i = 1; i <=10; i++) {
+                System.out.print(i * i + " " );
+            }
         }
+        
 
         public static void drawThird() {
             System.out.println("+===+===+");
